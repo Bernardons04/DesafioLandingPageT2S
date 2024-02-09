@@ -223,17 +223,18 @@ html {
 .divReasons {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 35px;
+    margin-bottom: 10px;
 }
 
 #reasons {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 30px;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0 120px;
+    padding: 90px 0 80px;
+    gap: 20px;
     min-height: calc(100vh - 80px - 90px);
     font-family: 'Nunito', sans-serif;
     background-image: url("/Images/pxCode.png");
@@ -313,7 +314,7 @@ html {
 .firstLine, .secondLine {
     display: flex;
     justify-content: space-around;
-    gap: 45px;
+    gap: 35px;
 }
 
 .imageBackground2 {
@@ -449,7 +450,7 @@ html {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    padding-top: 120px;
+    padding: 120px 0 40px;
     min-height: calc(100vh - 120px);
     font-family: 'Nunito', sans-serif;
     background-image: url("/Images/Client.jpg");

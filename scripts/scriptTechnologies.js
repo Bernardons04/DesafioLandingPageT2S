@@ -11,7 +11,11 @@ const filterCards = e => {
             card.classList.remove("hide");
         }
     })
+}
+
+const activeEffect = () => {
     document.querySelector(".active").classList.remove("active");
 }
 
+filterButtons.forEach(button => button.addEventListener("click", activeEffect))
 filterButtons.forEach(button => button.addEventListener("click", filterCards))
