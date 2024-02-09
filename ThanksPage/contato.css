@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --light: #Fff;
+    --light2: #F0F5F9;
+    --dark: #020617;
+    --main-color: #3264FE;
+    --second-color: #1852ff;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    min-width: 320px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+main a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--light);
+    background-color: transparent;
+    border: solid 5px var(--main-color);
+    padding: 20px;
+    transition: .3s ease-in-out;
+    width: 400px;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    main h1 {
+        font-size: 2.5rem;
+    }
+    
+    main h2 {
+        font-size: 1.5rem;
+    }
+    
+    main a {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    main h1 {
+        font-size: 2rem;
+    }
+    
+    main h2 {
+        font-size: 1.3rem;
+    }
+    
+    main a {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    main h1 {
+        font-size: 2rem;
+    }
+    
+    main h2 {
+        font-size: 1.15rem;
+    }
+    
+    main a {
+        font-size: 1.2rem;
+        width: 300px;
+    }
+}
