@@ -9,7 +9,7 @@ window.scrl = ScrollReveal({
 scrl.reveal('.container, #banner img');
 scrl.reveal('#ourMetrics, .divReason');
 scrl.reveal('.filter, .technologiesList');
-scrl.reveal('.allTestimonial')
+scrl.reveal('.listTestimonials', {origin: 'left'})
 scrl.reveal('.mapAndInfos', {origin: 'top'})
 scrl.reveal('.contactForm', {origin: 'bottom'})
 scrl.reveal('.logoFooter, .middleFooter, .footerInferior', {origin: 'top'})
