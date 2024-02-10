@@ -35,8 +35,8 @@ html {
 
 .arrow-start {
     position: fixed;
-    margin-left: 95%;
-    margin-top: 750px;
+    bottom: 15rem;
+    right: 3rem;
     scroll-behavior: smooth;
     z-index: 50;
     animation: float 2s ease-in-out infinite;
@@ -132,7 +132,7 @@ html {
     padding-top: 120px;
     display: flex;
     justify-content: center;
-    gap: 11rem;
+    gap: 5rem;
     align-items: center;
     height: calc(100vh - 290px);
     background-color: #ffffff;
@@ -143,6 +143,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 40rem;
 }
 
 .container h1{
@@ -159,7 +160,7 @@ html {
 .container h2{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    width: 580px;
+    width: 95%
 }
 
 .container a {
@@ -191,17 +192,22 @@ html {
     position: relative;
     bottom: -120px;
     gap: 50px;
+    justify-content: center;
 }
 #ourMetrics div {
     background-color: var(--main-color);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 300px;
     padding: 20px 30px;
     border-radius: 30px;
     transform: translateY(-30%);
     color: var(--light);
+    height: 100%;
+    text-align: center;
 }
 
 #ourMetrics div:hover {
@@ -221,8 +227,8 @@ html {
 }
 
 .divReasons {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     margin-bottom: 10px;
 }
@@ -311,14 +317,8 @@ html {
     opacity: .5;
 }
 
-.firstLine, .secondLine {
-    display: flex;
-    justify-content: space-around;
-    gap: 35px;
-}
-
 .imageBackground2 {
-    width: 60%;
+    width: 80%;
     position: absolute;
     bottom: -20px;
     right: 0;
@@ -327,7 +327,7 @@ html {
 }
 
 .imageBackground3 {
-    width: 60%;
+    width: 80%;
     position: absolute;
     top: -20px;
     left: 0;
@@ -337,7 +337,7 @@ html {
 
 #technologies {
     padding: 100px 0 50px;
-    min-height: calc(100vh - 100px);
+    min-height: 100vh;
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -348,38 +348,43 @@ html {
     background-color: transparent;
 }
 
-.Divtechnologies {
+.divTechnologies {
     width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#technologies h1 {
-    color: var(--second-color);
-    font-size: 50px;
-    line-height: 0;
-    font-weight: bold;
-}
-
-#technologies h2 {
-    font-size: 30px;
-    line-height: 0;
+.divReasons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-bottom: 10px;
 }
 
 .filter {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     list-style: none;
-    justify-content: center;
     margin: 40px 0;
+    padding: 0;
+    align-items: center;
+    gap: 20px;
 }
 
 .filter .item {
     border: solid 2px var(--second-color);
     color: var(--second-color);
     padding: 15px 25px;
-    margin: 0 20px;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 216px;
 }
 
 .filter .item:hover, .active {
@@ -434,7 +439,7 @@ html {
 #feedbacks .linkButtonContact,
 #reasons .linkButtonContact {
     background-color: white;
-    width: 200px;
+    width: 13 rem;
     text-align: center;
     font-size: 20px;
 }
@@ -459,6 +464,7 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
+    max-width: 100%;
 }
 
 #feedbacks h1 {
@@ -590,7 +596,7 @@ html {
 }
 .contactImgBackground1 {
     position: absolute;
-    width: 800px;
+    width: 120vw;
     top: -10px;
     left: 0;
 }
@@ -599,14 +605,14 @@ html {
     z-index: 5;
 }
 
-#contact h1 {
+.titleAndSubTitle h1 {
     color: var(--second-color);
     font-size: 50px;
     line-height: 0;
     font-weight: bold;
 }
-
 .titleAndSubTitle {
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -614,6 +620,7 @@ html {
     padding: 0;
     margin: 0;
     gap: 0;
+    text-align: center;
 }
 
 .titleAndSubTitle h2 {
@@ -638,7 +645,7 @@ html {
 
 .map {
     margin-bottom: 20px;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 .map iframe{
     border-radius: 20px;
@@ -697,7 +704,7 @@ fieldset {
 .inpuBox  textarea {
     border: solid 1px white;
     width: 95%;
-    max-height: 135px;
+    max-height: 120px;
     min-height: 40px;
     border: 2px solid var(--second-color);
 }

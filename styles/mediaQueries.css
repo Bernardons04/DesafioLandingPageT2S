@@ -1,0 +1,420 @@
+@media screen and (max-width: 2000px) {
+    #header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #ourMetrics {
+        margin: 0 auto;
+        width: 95%;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    #banner {
+        gap: 2rem;
+    }
+    #reasons h1, #feedbacks h1 {
+        font-size: 38px;
+    }
+    .divReason {
+        width: 330px;
+        padding: 28px 28px;
+    }
+    .divContact {
+        transform: scale(0.93);
+        margin: -20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 1250px) {
+    .container {
+        text-align: center;
+        align-items: center;
+    }
+    #banner {
+        flex-direction: column;
+    }
+    #ourMetrics {
+        gap: 10px;
+        width: 98%;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+    #ourMetrics div {
+        width: 200px;
+        padding: 15px 10px;
+
+    }
+    .number {
+        font-size: 37px;
+    }
+    .numberTitle {
+        line-height: 25px;
+    }
+    #reasons h1, #feedbacks h1 {
+        line-height: 50px;
+        text-align: center;
+    }
+    .divReasons {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .titleAndSubTitle h2 {
+        line-height: 40px;
+        margin: 0;
+    }
+    .filter {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .divContact {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        align-items: center;
+    }
+    .contactForm {
+        width: 100%;
+    }
+    #contact {
+        gap: 0;
+    }
+    .mapAndInfos {
+        padding: 0;
+        margin: 0;
+    }
+    .contactImgBackground1 {
+        width: 120vw;
+    }
+    #technologies {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .titleAndSubTitle {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 950px) {
+    .number {
+        font-size: 32px;
+    }
+    #reasons h1, #feedbacks h1 {
+        width: 98%;
+    }
+    .imageBackground2 {
+        width: 80vw;
+    }
+    
+    .imageBackground3 {
+        width: 80vw;
+    }
+    #footer {
+        padding: 10px 0 0;
+    }
+    .logoFooter img {
+        width: 20rem;
+    }
+    .middleFooter {
+        gap: 20px;
+    }
+    .contactImgBackground1 {
+        transform: rotate(90deg);
+        translate: -50%;
+        width: 300vw;
+    }
+    .imageBackground2 {
+        transform: scaleX(-1) rotate(90deg);
+        translate: 30%;
+        width: 150vw;
+    }
+    
+    .imageBackground3 {
+        transform: scaleX(-1) rotate(90deg);
+        translate: -30%;
+        width: 150vw;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .divReasons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .middleFooter {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .divTextFooter {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divNavFooter {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .arrow-start {
+        display: none;
+    }
+    #ourMetrics {
+        gap: 0px;
+        width: 100%;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+    #ourMetrics div {
+        padding: 5px 3px;
+    }
+    .number {
+        font-size: 30px;
+    }
+    .numberTitle {
+        line-height: 25px;
+    }
+    .titleAndSubTitle h1 {
+        line-height: 45px;
+        font-size: 45px;
+        margin: 0;
+    }
+    .titleAndSubTitle h2 {
+        font-size: 28px;
+    }
+    .divContact {
+        transform: scale(0.85);
+        margin: -50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #banner img {
+        width: 30rem;
+    }
+    .container {
+       width: 35rem;
+    }
+    .container h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .container h1 span{
+        font-size: 50px;
+    }
+    #ourMetrics {
+        flex-wrap: wrap;
+    }
+    .numberTitle {
+        line-height: 15px;
+    }
+    #ourMetrics div {
+        padding: 5px 10px 0;
+    }
+    #reasons {
+        margin-top: 10rem;
+    }
+    .titleAndSubTitle h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #ourMetrics {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .container {
+       width: 30rem;
+    }
+    #ourMetrics div {
+        padding: 0 10px;
+    }  
+    .number {
+        font-size: 22px;
+    }
+    #reasons h1, #feedbacks h1 {
+        line-height: 40px;
+        font-size: 35px;
+    }
+    .titleAndSubTitle h1 {
+        font-size: 35px;
+    }
+    .titleAndSubTitle h2 {
+        font-size: 25px;
+    }
+    .filter {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+    .divTextFooter {
+        font-size: 16px;
+    }
+    .footerInferior {
+        font-size: 18px;
+        text-align: center;
+    }
+    .logoFooter img {
+        width: 15rem;
+    }
+    .divContact {
+        transform: scale(0.8);
+        margin: -80px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        width: 25rem;
+    }
+    .container h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .container h1 span{
+        font-size: 40px;
+    }
+    #banner img {
+        width: 25rem;
+    }
+    #reasons h1, #feedbacks h1 {
+        font-size: 32px;
+    }
+    .titleAndSubTitle {
+        width: 98%;
+    }
+    .divContact {
+        transform: scale(0.73);
+        margin: -110px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #banner img {
+        width: 23rem;
+    }
+    .container {
+        width: 23rem;
+    }
+    .container h2{
+        font-size: 16px;
+    }
+    #ourMetrics{
+        display: none;
+    }
+    #reasons h1, #feedbacks h1 {
+        font-size: 28px;
+        width: 95%;
+    }
+    .divReason {
+        width: 320px;
+        padding: 25px 18px;
+    }
+    .divReason p {
+        font-size: 16px;
+    }
+    .titleAndSubTitle h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .titleAndSubTitle h2 {
+        font-size: 23px;
+    }
+    .technologiesList .item {
+        width: 200px;
+        height: 240px;
+        margin: 0;
+    }
+    .technologiesList .item p {
+        top: 170px;
+    }
+    .contactImgBackground1 {
+        width: 300vw;
+    }
+    .divContact {
+        transform: scale(0.6);
+        margin: -190px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 20rem;
+    }
+    #banner img {
+        width: 18rem;
+    }
+    .container h2{
+        font-size: 17px;
+    }
+    #reasons h1, #feedbacks h1 {
+        font-size: 23px;
+        width: 95%;
+    }
+    .divReason {
+        width: 290px;
+    }
+    .titleAndSubTitle h1 {
+        line-height: 35px;
+        font-size: 28px;
+    }
+    .titleAndSubTitle h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .titleAndSubTitle {
+        gap: 5px;
+    }
+    .filter{
+        transform: scale(.9);
+        margin: 0;
+    }
+    .divTextFooter {
+        font-size: 15px;
+    }
+    .divNavFooter h3, .divNavFooter li {
+        font-size: 16px;
+    }
+    .footerInferior {
+        font-size: 16px;
+        text-align: center;
+    }
+    .logoFooter img {
+        width: 10rem;
+    }
+    .divContact {
+        transform: scale(0.5);
+        margin: -240px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .divReason {
+        width: 250px;
+
+    }
+    .divReason p {
+        font-size: 15px;
+    }
+}
