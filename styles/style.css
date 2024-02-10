@@ -460,7 +460,9 @@ html {
 #feedbacks .linkButtonContact,
 #reasons .linkButtonContact {
     background-color: white;
-    width: 13 rem;
+    box-shadow: 0 0 30px var(--second-color), inset 0 0 50px var(--light);
+    text-shadow: 0 0 30px var(--second-color);
+    width: 13rem;
     text-align: center;
     font-size: 20px;
 }
@@ -468,6 +470,7 @@ html {
 #feedbacks .linkButtonContact:hover,
 #reasons .linkButtonContact:hover {
     background-color: var(--second-color);
+    box-shadow: 0 0 30px var(--second-color), inset 0 0 50px var(--second-color);
     transform: scale(1.2);
 }
 
