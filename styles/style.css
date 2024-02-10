@@ -226,6 +226,7 @@ html {
     padding: 20px 30px;
     border-radius: 30px;
     transform: translateY(-30%);
+    transition: .4s ease-in-out;
     color: var(--light);
     height: 100%;
     text-align: center;
@@ -461,7 +462,6 @@ html {
 #reasons .linkButtonContact {
     background-color: white;
     box-shadow: 0 0 30px var(--second-color), inset 0 0 50px var(--light);
-    text-shadow: 0 0 30px var(--second-color);
     width: 13rem;
     text-align: center;
     font-size: 20px;
