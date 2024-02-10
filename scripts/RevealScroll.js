@@ -7,7 +7,7 @@ window.scrl = ScrollReveal({
 })
 
 scrl.reveal('.container, #banner img');
-scrl.reveal('#ourMetrics, .divReason, #reasons a');
+scrl.reveal('#ourMetrics, .divReason');
 scrl.reveal('.filter, .technologiesList');
 scrl.reveal('.allTestimonial', {origin: 'left'})
 scrl.reveal('.mapAndInfos', {origin: 'top'})
