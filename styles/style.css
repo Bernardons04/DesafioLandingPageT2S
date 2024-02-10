@@ -35,7 +35,7 @@ html {
 
 .arrow-start {
     position: fixed;
-    bottom: 15rem;
+    bottom: 5rem;
     right: 3rem;
     scroll-behavior: smooth;
     z-index: 50;
@@ -71,6 +71,20 @@ html {
     z-index: 50;
 }
 
+.nav-toggle {
+    color: var(--light);
+    border: none;
+    font-size: 2.2rem;
+    display: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-toggle:hover {
+    transform: scale(1.2);
+    color: var(--second-color);
+}
+
 .logo img {
     height: 45px;
     transition: .4s ease-in-out;
@@ -78,6 +92,13 @@ html {
 
 .logo img:hover {
     transform: scale(1.1);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 
 .nav ul {
@@ -481,7 +502,7 @@ html {
     overflow: hidden;
     scroll-behavior: smooth;
     margin: 0 auto;
-    width: 1400px;
+    width: 101rem;
 }
 
 .allTestimonial {
@@ -489,6 +510,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 101rem;
 }
 .listTestimonial {
     position: relative; /* Necessário para alinhar os pseudo-elementos */
@@ -514,8 +536,7 @@ html {
     overflow: hidden;
     margin: 0 auto;
     scroll-behavior: smooth;
-    padding: 50px;
-
+    padding: 50px 30px;
 }
 
 .hovered {
@@ -819,4 +840,8 @@ fieldset button:hover {
 
 .footerInferior {
     font-size: 20px;
+}
+
+body:nth-child() {
+    visibility: hidden;
 }

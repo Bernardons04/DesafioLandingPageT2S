@@ -2,7 +2,7 @@ const carrossel = document.querySelector(".listTestimonials");
 const firstTestimonial = carrossel.querySelectorAll(".testimonial")[0];
 const arrowIcons = document.querySelectorAll(".divArrow img");
 let isDragStart = false, prevPageX, prevScrollLeft;
-let firstImgWidth = firstTestimonial.clientWidth + 64;
+let firstImgWidth = firstTestimonial.clientWidth+34;
 
 arrowIcons.forEach(icon => {
     icon.addEventListener("click", () => {

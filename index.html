@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Sistemas - T2S</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="styles/mediaQueries.css">
-    <title>Desenvolvimento de Sistemas - T2S</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
@@ -15,8 +19,8 @@
         <div class="logo">
             <img src="Images/t2s logo.png" alt="Logo">
         </div>
-        <nav class="nav">
-            <ul>
+        <nav id="nav" class="nav">
+            <ul class="navList">
                 <li><a href="#">Início</a></li>
                 <li><a href="#reasons">Por que Nós?</a></li>
                 <li><a href="#technologies">Tecnologias</a></li>
@@ -24,6 +28,9 @@
                 <li><a class="linkButtonContact" href="#contact">Contato</a></li>
             </ul>
         </nav>
+        <div class="nav-toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+        </div>
     </header>
     <div class="arrow-start">
         <a href="#banner">
@@ -516,5 +523,6 @@
 <script src="scripts/scriptHeader.js"></script>
 <script src="scripts/scriptHoverFeedBack.js"></script>
 <script src="scripts/scriptTechnologies.js"></script>
+<script src="scripts/RevealScroll.js"></script>
 
 </html>
