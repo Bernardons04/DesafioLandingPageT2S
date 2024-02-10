@@ -706,6 +706,13 @@ html {
     border-radius: 20px;
     padding-top: 15px;
 }
+.contactForm h2 {
+    font-size: 30px;
+    border: solid 2px red;
+    padding: 15px;
+    width: 95%;
+    text-align: center;
+}
 
 .contactForm form {
     display: flex;
@@ -724,14 +731,14 @@ fieldset {
     position: relative;
     width: 100%;
 }
-
+/*
 .inpuBox  textarea {
     border: solid 1px white;
     width: 95%;
     max-height: 120px;
     min-height: 40px;
     border: 2px solid var(--second-color);
-}
+}*/
 
 .inputUser {
     background: none;
