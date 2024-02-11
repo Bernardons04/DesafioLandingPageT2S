@@ -7,3 +7,4 @@ window.scrl = ScrollReveal({
 })
 
 scrl.reveal('.container, #banner img, #ourMetrics, .divReason, .filter, .technologiesList, .divContact, .logoFooter, .middleFooter, .footerInferior');
+scrl.reveal('.allTestimonial', {reset: false});
