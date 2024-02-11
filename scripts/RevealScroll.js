@@ -9,6 +9,6 @@ window.scrl = ScrollReveal({
 scrl.reveal('.container, #banner img');
 scrl.reveal('#ourMetrics, .divReason');
 scrl.reveal('.filter, .technologiesList');
-scrl.reveal('.mapAndInfos', {origin: 'top'})
-scrl.reveal('.contactForm', {origin: 'bottom'})
-scrl.reveal('.logoFooter, .middleFooter, .footerInferior', {origin: 'top'})
+scrl.reveal('.mapAndInfos')
+scrl.reveal('.contactForm')
+scrl.reveal('.logoFooter, .middleFooter, .footerInferior')
