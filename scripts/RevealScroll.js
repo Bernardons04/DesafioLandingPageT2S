@@ -6,4 +6,4 @@ window.scrl = ScrollReveal({
     reset: true
 })
 
-scrl.reveal('.container, #banner img, #ourMetrics, .divReason, .filter, .technologiesList, .mapAndInfos, .contactForm, .logoFooter, .middleFooter, .footerInferior, .allTestimonial');
+scrl.reveal('.container, #banner img, #ourMetrics, .divReason, .filter, .technologiesList, .divContact, .logoFooter, .middleFooter, .footerInferior');
