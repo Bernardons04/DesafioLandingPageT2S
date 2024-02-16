@@ -12,7 +12,7 @@
 
 O serviço escolhido para o desenvolvimento desta Landing Page foi “Desenvolvimento de Sistemas”.
 
-## 🔨Funcionalidades da aplicação web - RFs
+## 🔨Funcionalidades da aplicação web
 
 - `Funcionalidade 1`: Formulário de registro de LEADS.
 - `Funcionalidade 2`: Carrossel com os depoimentos dos clientes na seção de feedbacks.
