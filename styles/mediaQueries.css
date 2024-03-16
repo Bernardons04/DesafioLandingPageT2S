@@ -20,6 +20,12 @@
     }
 }
 
+@media screen and (max-height: 850px) {
+    #banner img {
+        width: 28rem;
+    }
+}
+
 @media screen and (max-width: 1350px) {
     #banner {
         gap: 2rem;
